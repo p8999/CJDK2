@@ -1,0 +1,6 @@
+// تخصیص حافظه با اندازه مشخص
+@alloc(1024) 
+var buffer: ByteArray
+
+// آزادسازی حافظه
+@free(buffer)

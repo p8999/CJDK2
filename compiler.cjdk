@@ -1,0 +1,8 @@
+// در کد کامپایلر
+if isSuitableForGPU(function) {
+    // تخصیص تابع به GPU
+    allocateToGPU(function)
+} else {
+    // تخصیص به CPU
+    allocateToCPU(function)
+}

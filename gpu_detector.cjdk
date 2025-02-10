@@ -1,0 +1,5 @@
+// بررسی مناسب بودن برای GPU
+func isSuitableForGPU(function: func) -> bool {
+    // معیارهایی که باید بررسی بشه (مثل حلقه‌های مستقل و...).
+    return function.containsIndependantLoops() && function.accessesVectors()
+}

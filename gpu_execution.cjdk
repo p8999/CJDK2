@@ -1,0 +1,8 @@
+// تابع برای اجرا روی GPU
+@auto_gpu
+func process_data_on_gpu(data: Array) {
+    // کدهایی که می‌خواهیم روی GPU اجرا بشه
+    for i in 0..data.length {
+        data[i] = data[i] * 2
+    }
+}
